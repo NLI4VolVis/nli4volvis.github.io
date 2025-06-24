@@ -126,7 +126,7 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <img src="static/images/teaser.pdf" alt="NLI4VolVis Teaser" style="width: 100%; height: auto;"/>
+      <img src="static/images/teaser.jpg" alt="NLI4VolVis Teaser" style="width: 100%; height: auto;"/>
       <h2 class="subtitle has-text-centered">
         NLI4VolVis revolutionizes volume data exploration by enabling users to interact with complex 3D datasets through natural language commands via LLM multi-agents and editable 3D Gaussian Splatting, making scientific visualization more accessible and intuitive.
       </h2>
@@ -143,13 +143,13 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Volume visualization is a critical component of scientific computing, enabling researchers to explore and understand complex 3D datasets across various domains including medical imaging, geosciences, and computational fluid dynamics. However, traditional volume visualization systems often require specialized knowledge and extensive parameter tuning, creating barriers for domain experts who need to focus on their research rather than mastering visualization tools.
+            Traditional volume visualization (VolVis) methods, like direct volume rendering, suffer from rigid transfer function designs and high computational costs. Although novel view synthesis approaches enhance rendering efficiency, they require additional learning effort for non-experts and lack support for semantic-level interaction. To bridge this gap, we propose NLI4VolVis, an interactive system that enables users to explore, query, and edit volumetric scenes using natural language.
           </p>
           <p>
-            We present NLI4VolVis, a novel natural language interface that bridges this gap by allowing users to interact with volume visualization systems using intuitive natural language commands. Our approach combines advanced natural language processing with state-of-the-art volume rendering techniques to create an accessible and powerful visualization environment. Users can express complex visualization tasks through simple conversational interfaces, such as "show me the high-density regions in red" or "create an isosurface at 50% of the maximum value."
+            NLI4VolVis integrates multi-view semantic segmentation and vision-language models to extract and understand semantic components in a scene. We introduce a multi-agent large language model architecture equipped with extensive function-calling tools to interpret user intents and execute visualization tasks. The agents leverage external tools and declarative VolVis commands to interact with the VolVis engine powered by 3D editable Gaussians, enabling open-vocabulary object querying, real-time scene editing, best-view selection, and 2D stylization.
           </p>
           <p>
-            The system demonstrates significant improvements in user efficiency and accessibility compared to traditional GUI-based approaches, particularly for users without extensive visualization expertise. Our evaluation shows that NLI4VolVis reduces task completion time by up to 40% while maintaining high-quality visualization outputs.
+            We validate our system through case studies and a user study, highlighting its improved accessibility and usability in volumetric data exploration.
           </p>
         </div>
       </div>
