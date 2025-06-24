@@ -1,3 +1,23 @@
+# ⚠️ Repository Moved
+
+This repository has been moved to the official organization repository.
+
+**New Location:** https://github.com/NLI4VolVis/nli4volvis.github.io
+
+**Live Site:** https://nli4volvis.github.io/
+
+Please update your bookmarks and references to use the new URLs.
+
+---
+
+## NLI4VolVis: Natural Language Interaction for Volume Visualization
+
+This repository contains the project page for "NLI4VolVis: Natural Language Interaction for Volume Visualization via LLM Multi-Agents and Editable 3D Gaussian Splatting".
+
+**Visit the live site:** [https://nli4volvis.github.io/](https://nli4volvis.github.io/)
+
+---
+
 # Academic Project Page Template
 This is an academic paper project page template.
 
