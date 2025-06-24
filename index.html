@@ -172,12 +172,12 @@
             </p>
             <div class="columns">
               <div class="column">
-                <p><strong>1. Natural Language Interface:</strong> Users input natural language queries through an intuitive chat interface, allowing them to express complex visualization intents without technical expertise.</p>
-                <p><strong>2. Multi-Agent LLM Architecture:</strong> A coordinated system of specialized language model agents interprets user requests, leveraging function-calling tools to decompose complex tasks into executable visualization commands.</p>
+                <p><strong>1. LLM Multi-Agent Collaboration:</strong> A coordinated system of specialized language model agents interprets user requests, leveraging function-calling tools to decompose complex tasks into executable visualization commands.</p>
+                <p><strong>2. Semantic Understanding:</strong> Multi-view semantic segmentation and vision-language models extract and understand semantic components within volumetric scenes, enabling open-vocabulary object querying.</p>
               </div>
               <div class="column">
-                <p><strong>3. Semantic Understanding:</strong> Multi-view semantic segmentation and vision-language models extract and understand semantic components within volumetric scenes, enabling open-vocabulary object querying.</p>
-                <p><strong>4. 3D Gaussian Rendering:</strong> The VolVis engine powered by editable 3D Gaussians provides real-time scene editing, best-view selection, and 2D stylization capabilities.</p>
+                <p><strong>3. Editable 3D Gaussian Rendering:</strong> The VolVis engine powered by editable 3D Gaussians provides real-time scene editing, best-view selection, and 2D stylization capabilities.</p>
+                <p><strong>4. Natural Language Interface:</strong> Users input natural language queries through an intuitive chat interface, allowing them to express complex visualization intents without technical expertise.</p>
               </div>
             </div>
           </div>
@@ -204,23 +204,13 @@
           <h2 class="title is-3 has-text-centered">Interactive Interface</h2>
           <div class="content has-text-justified">
             <p>
-              NLI4VolVis features an intuitive web-based interface that democratizes volume visualization through natural language interaction. The interface seamlessly combines traditional visualization controls with conversational AI, allowing users to express their visualization intents in plain English rather than learning complex technical parameters.
+              NLI4VolVis features an intuitive interface that democratizes volume visualization through natural language interaction. The interface seamlessly combines traditional visualization controls with conversational AI, allowing users to express their visualization intents in plain English rather than learning complex technical parameters.
             </p>
-            <div class="columns">
-              <div class="column">
-                <p><strong>Conversational Interaction:</strong> Users can type natural language queries such as "Show me the heart in red and make it transparent" or "Create an isosurface of the brain tissue at 50% opacity."</p>
-                <p><strong>Real-time Feedback:</strong> The system provides immediate visual feedback and confirmation of executed commands, enabling iterative exploration and refinement.</p>
-              </div>
-              <div class="column">
-                <p><strong>Intelligent Assistance:</strong> The interface offers contextual suggestions and helps users discover visualization capabilities through natural conversation.</p>
-                <p><strong>Seamless Integration:</strong> Traditional volume rendering controls remain accessible for expert users while maintaining the simplicity of natural language for newcomers.</p>
-              </div>
-            </div>
           </div>
           <div class="has-text-centered" style="margin-top: 2rem;">
             <img src="static/images/interface.jpg" alt="NLI4VolVis Interface" style="width: 100%; max-width: 1400px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
             <p class="subtitle is-6" style="margin-top: 1rem; color: #666;">
-              The NLI4VolVis interface showing natural language interaction alongside real-time volume visualization, demonstrating seamless integration of conversational AI with scientific visualization tools.
+              The NLI4VolVis interface consists of four key components: (a) panel, (b) rendering window, (c) chat widget, and (d) action log.
             </p>
           </div>
         </div>
@@ -229,6 +219,61 @@
   </div>
 </section>
 <!-- End interface section -->
+
+
+<!-- User Study section -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3 has-text-centered">User Study</h2>
+          <div class="content has-text-justified">
+            <p>
+              We conducted a comprehensive user study to evaluate the effectiveness and usability of NLI4VolVis compared to traditional volume visualization methods. The study involved participants with varying levels of visualization expertise, from novices to domain experts, to assess the system's accessibility and practical utility.
+            </p>
+            
+            <h3 class="title is-4">Key Advantages</h3>
+            <p>
+              The user study revealed several significant advantages of our natural language approach:
+            </p>
+            <ul>
+              <li><strong>Improved Accessibility:</strong> Novice users demonstrated significantly faster task completion times and reduced learning curves when using natural language commands compared to traditional parameter-based interfaces.</li>
+              <li><strong>Enhanced Intuitive Interaction:</strong> Participants reported that expressing visualization intents in natural language felt more intuitive and aligned with their mental models of the data exploration process.</li>
+              <li><strong>Reduced Cognitive Load:</strong> Users no longer needed to memorize complex parameter relationships or technical visualization terminology, allowing them to focus on data analysis rather than interface mechanics.</li>
+              <li><strong>Increased Exploration Efficiency:</strong> The multi-agent system enabled users to perform complex visualization tasks through simple conversational exchanges, leading to more comprehensive data exploration.</li>
+            </ul>
+
+            <h3 class="title is-4">Identified Shortcomings</h3>
+            <p>
+              Despite the overall positive reception, the study also identified areas for improvement:
+            </p>
+            <ul>
+              <li><strong>Ambiguity in Natural Language:</strong> Some participants experienced difficulties when their natural language queries were ambiguous or imprecise, requiring multiple iterations to achieve desired results.</li>
+              <li><strong>Expert User Adaptation:</strong> Advanced users who were proficient with traditional interfaces occasionally found the natural language approach slower for very specific, technical visualization tasks.</li>
+              <li><strong>System Response Variability:</strong> Occasional inconsistencies in how the LLM agents interpreted similar requests led to user confusion and required clarification.</li>
+              <li><strong>Limited Domain Coverage:</strong> The system's effectiveness was constrained by the training data and predefined function tools, occasionally struggling with highly specialized domain-specific terminology.</li>
+            </ul>
+          </div>
+          
+          <div class="has-text-centered" style="margin-top: 2rem;">
+            <img src="static/images/survey_responses.png" alt="User Study Survey Responses" style="width: 100%; max-width: 1200px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
+            <p class="subtitle is-6" style="margin-top: 1rem; color: #666;">
+              Survey responses from the user study showing participant feedback on usability, efficiency, and overall satisfaction with the NLI4VolVis system compared to traditional volume visualization approaches.
+            </p>
+          </div>
+          
+          <div class="content has-text-justified" style="margin-top: 2rem;">
+            <p>
+              Overall, the user study demonstrates that NLI4VolVis successfully democratizes volume visualization by making it more accessible to non-expert users while maintaining the sophistication required for complex data exploration tasks. The identified shortcomings provide valuable directions for future improvements, particularly in handling natural language ambiguity and expanding domain-specific knowledge coverage.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End user study section -->
 
 
 <!-- Image carousel -->
