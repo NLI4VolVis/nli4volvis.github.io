@@ -230,7 +230,7 @@
           <h2 class="title is-3 has-text-centered">User Study</h2>
           <div class="content has-text-justified">
             <p>
-              We conducted a comprehensive user study to evaluate the effectiveness and usability of NLI4VolVis compared to traditional volume visualization methods. The study involved participants with varying levels of visualization expertise, from novices to domain experts, to assess the system's accessibility and practical utility.
+              We conducted a comprehensive user study to evaluate the effectiveness and usability of NLI4VolVis. The study involved 8 participants with varying levels of visualization expertise, from novices to domain experts, to assess the system's accessibility and practical utility.
             </p>
             
             <h3 class="title is-4">Key Advantages</h3>
@@ -238,8 +238,7 @@
               The user study revealed several significant advantages of our natural language approach:
             </p>
             <ul>
-              <li><strong>Improved Accessibility:</strong> Novice users demonstrated significantly faster task completion times and reduced learning curves when using natural language commands compared to traditional parameter-based interfaces.</li>
-              <li><strong>Enhanced Intuitive Interaction:</strong> Participants reported that expressing visualization intents in natural language felt more intuitive and aligned with their mental models of the data exploration process.</li>
+              <li><strong>Improved Accessibility:</strong> Novice users demonstrated significantly faster task completion times and reduced learning curves when using natural language commands.</li>
               <li><strong>Reduced Cognitive Load:</strong> Users no longer needed to memorize complex parameter relationships or technical visualization terminology, allowing them to focus on data analysis rather than interface mechanics.</li>
               <li><strong>Increased Exploration Efficiency:</strong> The multi-agent system enabled users to perform complex visualization tasks through simple conversational exchanges, leading to more comprehensive data exploration.</li>
             </ul>
@@ -250,22 +249,21 @@
             </p>
             <ul>
               <li><strong>Ambiguity in Natural Language:</strong> Some participants experienced difficulties when their natural language queries were ambiguous or imprecise, requiring multiple iterations to achieve desired results.</li>
-              <li><strong>Expert User Adaptation:</strong> Advanced users who were proficient with traditional interfaces occasionally found the natural language approach slower for very specific, technical visualization tasks.</li>
-              <li><strong>System Response Variability:</strong> Occasional inconsistencies in how the LLM agents interpreted similar requests led to user confusion and required clarification.</li>
-              <li><strong>Limited Domain Coverage:</strong> The system's effectiveness was constrained by the training data and predefined function tools, occasionally struggling with highly specialized domain-specific terminology.</li>
+              <li><strong>LLM Latency:</strong> Response delays from the language model agents occasionally disrupted the interactive flow, particularly for complex multi-step visualization tasks.</li>
+              <li><strong>Limited Domain Coverage:</strong> The system's effectiveness was constrained by the predefined function tools, occasionally struggling with highly specialized domain-specific terminology.</li>
             </ul>
           </div>
           
           <div class="has-text-centered" style="margin-top: 2rem;">
             <img src="static/images/survey_responses.png" alt="User Study Survey Responses" style="width: 100%; max-width: 1200px; height: auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
             <p class="subtitle is-6" style="margin-top: 1rem; color: #666;">
-              Survey responses from the user study showing participant feedback on usability, efficiency, and overall satisfaction with the NLI4VolVis system compared to traditional volume visualization approaches.
+            Survey responses to nine post-questionnaire questions, along with mean scores (on a 1–5 scale) and standard deviations.
             </p>
           </div>
           
           <div class="content has-text-justified" style="margin-top: 2rem;">
             <p>
-              Overall, the user study demonstrates that NLI4VolVis successfully democratizes volume visualization by making it more accessible to non-expert users while maintaining the sophistication required for complex data exploration tasks. The identified shortcomings provide valuable directions for future improvements, particularly in handling natural language ambiguity and expanding domain-specific knowledge coverage.
+              Overall, the user study demonstrates that NLI4VolVis successfully democratizes volume visualization by making it more accessible to non-expert users while maintaining the sophistication required for complex data exploration tasks. The identified shortcomings provide valuable directions for future improvements, particularly in handling natural language ambiguity and LLM response latency.
             </p>
           </div>
         </div>
