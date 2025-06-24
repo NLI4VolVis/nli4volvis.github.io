@@ -168,7 +168,7 @@
           <h2 class="title is-3 has-text-centered">Case Studies</h2>
           <div class="content has-text-justified">
             <p>
-              We demonstrate NLI4VolVis capabilities through four representative case studies, showcasing the system's ability to handle diverse datasets and natural language interactions across different visualization scenarios.
+              We demonstrate NLI4VolVis capabilities through six representative case studies, showcasing the system's ability to handle diverse datasets and natural language interactions across different visualization scenarios.
             </p>
           </div>
           
@@ -204,7 +204,7 @@
                 </div>
                 <div class="content has-text-justified">
                   <p>
-                    CT scan exploration using natural descriptions like "the box" or "the square-shaped object." The system handles open-ended references through vision-language embeddings, identifying correct components and highlighting them for emphasis—crucial for security screening applications.
+                    CT scan exploration using vague but natural descriptions like “the box,” “the storage container,” or “the square-shaped object.” The system handles open-ended references through vision-language embeddings, identifying and highlighting correct components.
                   </p>
                 </div>
               </div>
@@ -241,6 +241,42 @@
                 <div class="content has-text-justified">
                   <p>
                     Implicit instruction interpretation where "Display the snake inside the egg" leads the system to render a fully visible snake within a semi-transparent egg, demonstrating natural language understanding and automatic opacity adjustment.
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Mantle Temperature Case Study -->
+            <div class="column is-half">
+              <div class="box" style="height: 100%;">
+                <h4 class="title is-5 has-text-centered">Mantle Temperature</h4>
+                <div class="has-text-centered" style="margin-bottom: 1rem;">
+                  <video controls style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;">
+                    <source src="static/videos/mantle.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <div class="content has-text-justified">
+                  <p>
+                    Temperature simulation with colormap visualization from green (coolest) to orange (hottest). Users can highlight specific temperature regions like "hot mantle in bright blue" and apply creative stylizations such as transforming the scene to resemble a Black Forest cake, showcasing scientific precision with artistic creativity.
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Supernova Case Study -->
+            <div class="column is-half">
+              <div class="box" style="height: 100%;">
+                <h4 class="title is-5 has-text-centered">Supernova</h4>
+                <div class="has-text-centered" style="margin-bottom: 1rem;">
+                  <video controls style="width: 100%; max-width: 400px; height: auto; border-radius: 8px;">
+                    <source src="static/videos/supernova.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                  </video>
+                </div>
+                <div class="content has-text-justified">
+                  <p>
+                    Astrophysical simulation exploration with scientific reasoning. When asked "Tell me what the green part is about," the system identifies it as the shockwave. Follow-up queries like "Show me only the blue part" lead to isolation of turbulent plasma with detailed explanations, demonstrating combined visual reasoning and scientific knowledge.
                   </p>
                 </div>
               </div>
@@ -369,46 +405,6 @@
 <!-- End user study section -->
 
 
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="NLI4VolVis System Overview"/>
-        <h2 class="subtitle has-text-centered">
-          System architecture overview showing the natural language processing pipeline and volume rendering components.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Natural Language Interface"/>
-        <h2 class="subtitle has-text-centered">
-          Interactive natural language interface allowing users to control volume visualization through conversational commands.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Volume Rendering Results"/>
-        <h2 class="subtitle has-text-centered">
-         Advanced volume rendering results generated through natural language commands, showcasing different visualization techniques.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="User Study Results"/>
-      <h2 class="subtitle has-text-centered">
-        Comparative analysis and user study results demonstrating improved efficiency and usability.
-      </h2>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
-
-
 
 
 <!-- Youtube video -->
@@ -466,25 +462,6 @@
 <!-- End video carousel -->
 
 
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
-
-
 <!--BibTex citation -->
   <section class="section" id="BibTeX">
     <div class="container is-max-desktop content">
@@ -508,9 +485,7 @@
         <div class="content">
 
           <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
+           This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
 
         </div>
