@@ -27,6 +27,13 @@ body {
   font-family: 'Google Sans', sans-serif;
 }
 
+/* Widen the page to match the HiLSVA project page */
+@media screen and (min-width: 1024px) {
+  .container.is-max-desktop {
+    max-width: min(1344px, calc(100vw - 80px));
+  }
+}
+
 
 .publication-title {
 }
