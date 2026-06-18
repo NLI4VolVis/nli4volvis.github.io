@@ -32,6 +32,11 @@ body {
   .container.is-max-desktop {
     max-width: min(1344px, calc(100vw - 80px));
   }
+  /* Slightly reduce the (long) title size so it fits on two lines.
+     Target .title.publication-title to override Bulma's .title.is-1 (3rem). */
+  .title.publication-title {
+    font-size: 2.4rem;
+  }
 }
 
 
